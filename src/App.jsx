@@ -8,6 +8,8 @@ import Home from './pages/Home'
 import Contact from './pages/Contact'
 import Services from './pages/Services'
 import About from './pages/About'
+import Job from './pages/Job'
+import EditJob from './pages/EditJob'
 
 // import {Home, About, Services, Contact} from './pages/'
 
@@ -17,11 +19,14 @@ function App() {
     <>
       <BrowserRouter>
           <Routes>
-                <Route index element={<Layout/>}/>
-                <Route path='/' element={<Home/>}/>
-                <Route path='/about' element={<About/>}/>
-                <Route path='/contact' element={<Contact/>}/>
-                <Route path='/services' element={<Services/>}/>
+                <Route path='/' element={<Layout/>}>
+                <Route index element={<Home/>}/>
+                <Route path='about' element={<About/>}/>
+                <Route path='/jobs/:id' element={<Job/>}/>
+                <Route path='contact' element={<Contact/>}/>
+                <Route path='services' element={<Services/>}/>
+                <Route path='jobedit/:id' element={<EditJob/>}/>               
+                </Route>
           </Routes>
       </BrowserRouter>
       <Toaster

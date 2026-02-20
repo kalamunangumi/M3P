@@ -1,0 +1,59 @@
+{
+  "jobs": [
+    {
+      "id": 6,
+      "job": "DevOps Engineer",
+      "location": "Boston",
+      "type": "Hybrid",
+      "expiry_date": "01 August 2026",
+      "contact": "devops@cloudteam.com"
+    },
+    {
+      "id": 11,
+      "job": "Cybersecurity Analyst",
+      "location": "Washington DC",
+      "type": "Onsite",
+      "expiry_date": "28 October 2026",
+      "contact": "security@secureit.com"
+    },
+    {
+      "id": 16,
+      "job": "Game Developer",
+      "location": "Los Angeles",
+      "type": "Onsite",
+      "expiry_date": "25 January 2027",
+      "contact": "games@playstudio.com"
+    },
+    {
+      "id": 18,
+      "job": "QA Engineer",
+      "location": "Phoenix",
+      "type": "Remote",
+      "expiry_date": "01 March 2027",
+      "contact": "qa@qualityfirst.com"
+    },
+    {
+      "id": 19,
+      "job": "IT Support Specialist",
+      "location": "Las Vegas",
+      "type": "Onsite",
+      "expiry_date": "19 March 2027",
+      "contact": "support@helpdesk.com"
+    },
+    {
+      "id": 20,
+      "job": "Technical Writer",
+      "location": "Remote",
+      "type": "Remote",
+      "expiry_date": "05 April 2027",
+      "contact": "docs@techwrite.com"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "william",
+      "email": "william@example.com"
+    }
+  ]
+}

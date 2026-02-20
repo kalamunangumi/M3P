@@ -2,5 +2,32 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: bisque;
+    background-color: #1E1A4D;
+}  
+
+.nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav ul a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav ul a:hover {
+    color: #05DF72
+}
+
+.nav ul a:active {
+    background-color:#2B7FFF;
+}
+
+.title {
+    margin: 1rem;
+    color: white;
+}
+
+.nav ul li {
+    margin: 10px;
 }
