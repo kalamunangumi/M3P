@@ -1,52 +1,140 @@
 {
   "jobs": [
     {
-      "id": 6,
-      "job": "DevOps Engineer",
-      "location": "Boston",
-      "type": "Hybrid",
-      "expiry_date": "01 August 2026",
-      "contact": "devops@cloudteam.com"
+      "id": 21,
+      "job": "Cloud Solutions Architecture",
+      "location": "Seattle",
+      "type": "Onsite",
+      "expiry_date": "15 April 2027",
+      "contact": "cloud@architects.com"
     },
     {
-      "id": 11,
-      "job": "Cybersecurity Analyst",
+      "id": 23,
+      "job": "Frontend React Developer",
+      "location": "New York",
+      "type": "Remote",
+      "expiry_date": "10 May 2027",
+      "contact": "react@frontendjobs.com"
+    },
+    {
+      "id": 24,
+      "job": "Backend Node.js Engineer",
+      "location": "Austin",
+      "type": "Hybrid",
+      "expiry_date": "18 May 2027",
+      "contact": "node@backendtech.com"
+    },
+    {
+      "id": 26,
+      "job": "DevOps Engineer",
+      "location": "Berlin",
+      "type": "Onsite",
+      "expiry_date": "02 June 2027",
+      "contact": "devops@cloudworks.com"
+    },
+    {
+      "id": 29,
+      "job": "Machine Learning Engineer",
+      "location": "Boston",
+      "type": "Remote",
+      "expiry_date": "22 June 2027",
+      "contact": "ml@aiworks.io"
+    },
+    {
+      "id": 30,
+      "job": "Cybersecurity Specialist",
       "location": "Washington DC",
       "type": "Onsite",
-      "expiry_date": "28 October 2026",
-      "contact": "security@secureit.com"
+      "expiry_date": "01 July 2027",
+      "contact": "security@cyberdefense.com"
     },
     {
-      "id": 16,
+      "id": 31,
+      "job": "Product Manager",
+      "location": "Seattle",
+      "type": "Hybrid",
+      "expiry_date": "05 July 2027",
+      "contact": "pm@producthub.com"
+    },
+    {
+      "id": 32,
+      "job": "QA Automation Engineer",
+      "location": "Denver",
+      "type": "Remote",
+      "expiry_date": "12 July 2027",
+      "contact": "qa@testinglabs.io"
+    },
+    {
+      "id": 33,
+      "job": "Technical Support Engineer",
+      "location": "Dublin",
+      "type": "Onsite",
+      "expiry_date": "18 July 2027",
+      "contact": "support@techassist.com"
+    },
+    {
+      "id": 34,
+      "job": "Blockchain Developer",
+      "location": "Zurich",
+      "type": "Remote",
+      "expiry_date": "25 July 2027",
+      "contact": "blockchain@cryptoworks.io"
+    },
+    {
+      "id": 35,
       "job": "Game Developer",
       "location": "Los Angeles",
       "type": "Onsite",
-      "expiry_date": "25 January 2027",
+      "expiry_date": "30 July 2027",
       "contact": "games@playstudio.com"
     },
     {
-      "id": 18,
-      "job": "QA Engineer",
-      "location": "Phoenix",
-      "type": "Remote",
-      "expiry_date": "01 March 2027",
-      "contact": "qa@qualityfirst.com"
+      "id": 36,
+      "job": "Systems Administrator",
+      "location": "Atlanta",
+      "type": "Hybrid",
+      "expiry_date": "04 August 2027",
+      "contact": "sysadmin@infratech.net"
     },
     {
-      "id": 19,
-      "job": "IT Support Specialist",
-      "location": "Las Vegas",
+      "id": 37,
+      "job": "Cloud Engineer",
+      "location": "Amsterdam",
+      "type": "Remote",
+      "expiry_date": "10 August 2027",
+      "contact": "cloud@hostingpro.io"
+    },
+    {
+      "id": 38,
+      "job": "IT Project Manager",
+      "location": "Melbourne",
       "type": "Onsite",
-      "expiry_date": "19 March 2027",
-      "contact": "support@helpdesk.com"
+      "expiry_date": "16 August 2027",
+      "contact": "projects@itmanage.com"
     },
     {
-      "id": 20,
-      "job": "Technical Writer",
-      "location": "Remote",
+      "id": 39,
+      "job": "Mobile QA Tester",
+      "location": "San Diego",
       "type": "Remote",
-      "expiry_date": "05 April 2027",
-      "contact": "docs@techwrite.com"
+      "expiry_date": "22 August 2027",
+      "contact": "mobileqa@testhub.io"
+    },
+    {
+      "id": 40,
+      "job": "Software Architect",
+      "location": "Paris",
+      "type": "Hybrid",
+      "expiry_date": "28 August 2027",
+      "contact": "architect@softdesign.com"
+    },
+    {
+      "id": 41,
+      "job": "AR/VR Developer",
+      "location": "Tokyo",
+      "type": "Onsite",
+      "expiry_date": "02 September 2027",
+      "contact": "xr@immersivetech.jp"
     }
   ],
   "users": [

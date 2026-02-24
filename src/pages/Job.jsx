@@ -37,7 +37,7 @@ export default function Job() {
         </div>
         <button onClick={()=>nav(-1)}>Back</button>
         <button onClick={() => {onDelete(), nav("/")}}>Delete</button>
-        <button onClick={() => {onDelete(), nav(`/jobedit/${id}`)}}>Edit Job</button>
+        <button onClick={() => nav(`/jobs/${id}/edit`)}>Edit Job</button>
         </>
       }
     </div>

@@ -19,22 +19,24 @@ function App() {
     <>
       <BrowserRouter>
           <Routes>
-                <Route path='/' element={<Layout/>}>
+            <Route path='/' element={<Layout/>}>
                 <Route index element={<Home/>}/>
                 <Route path='about' element={<About/>}/>
-                <Route path='/jobs/:id' element={<Job/>}/>
+                <Route path='jobs/:id' element={<Job/>}/>
                 <Route path='contact' element={<Contact/>}/>
                 <Route path='services' element={<Services/>}/>
-                <Route path='jobedit/:id' element={<EditJob/>}/>               
-                </Route>
+                <Route path='/jobs/:id/edit' element={<EditJob/>}/>               
+            </Route>
           </Routes>
       </BrowserRouter>
+
       <Toaster
         position="top-center"
         reverseOrder={false}
       />
+
     </>
   )
 }
 
-export default App
+export default App;
