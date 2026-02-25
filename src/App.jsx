@@ -10,6 +10,7 @@ import Services from './pages/Services'
 import About from './pages/About'
 import Job from './pages/Job'
 import EditJob from './pages/EditJob'
+import CreateJob from './pages/CreateJob'
 
 // import {Home, About, Services, Contact} from './pages/'
 
@@ -25,7 +26,8 @@ function App() {
                 <Route path='jobs/:id' element={<Job/>}/>
                 <Route path='contact' element={<Contact/>}/>
                 <Route path='services' element={<Services/>}/>
-                <Route path='/jobs/:id/edit' element={<EditJob/>}/>               
+                <Route path='/jobs/:id/edit' element={<EditJob/>}/> 
+                <Route path='create' element={<CreateJob/>}/>              
             </Route>
           </Routes>
       </BrowserRouter>
